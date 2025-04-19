@@ -22,9 +22,14 @@
       },
       "package": "com.tomasb2009.MiAppNueva"
     },
+    "androidNavigationBar": {
+      "barStyle": "dark-content",
+      "backgroundColor": "#ffffff"
+    },
     "web": {
       "favicon": "./assets/favicon.png"
     },
+    "plugins": ["expo-router"],
     "extra": {
       "eas": {
         "projectId": "e7b9f59d-b0ff-433a-8bc7-7f2c2f35401d"
