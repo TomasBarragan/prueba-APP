@@ -10,26 +10,32 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "expo": "~52.0.46",
-    "expo-router": "^4.0.20",
-    "nativewind": "^2.0.11",
-    "tailwindcss": "3.3.2",
-    "zod": "^3.24.3",
-    "react-native-svg": "15.8.0",
+    "@expo-google-fonts/inter": "^0.3.0",
     "@expo/vector-icons": "^14.1.0",
-    "expo-status-bar": "~2.0.1",
-    "expo-splash-screen": "~0.29.24",
-    "moti": "^0.30.0",
-    "react-native-reanimated": "~3.16.1",
+    "expo": "~52.0.46",
     "expo-navigation-bar": "~4.0.9",
-    "@expo-google-fonts/inter": "^0.3.0"
+    "expo-router": "^4.0.20",
+    "expo-splash-screen": "~0.29.24",
+    "expo-status-bar": "~2.0.1",
+    "moti": "^0.30.0",
+    "nativewind": "^2.0.11",
+    "react-native-reanimated": "~3.16.1",
+    "react-native-svg": "15.8.0",
+    "tailwindcss": "3.3.2",
+    "zod": "^3.24.3"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "@types/react": "~18.3.12",
-    "@types/react-native": "^0.72.8",
     "eslint": "^8.57.0",
     "eslint-config-expo": "~8.0.1"
+  },
+  "expo": {
+    "doctor": {
+      "reactNativeDirectoryCheck": {
+        "listUnknownPackages": false
+      }
+    }
   },
   "private": true
 }
