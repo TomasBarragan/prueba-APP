@@ -2,11 +2,8 @@ import { MotiView } from "moti";
 import { styled } from "nativewind";
 import { useState } from "react";
 import { Text, View } from "react-native";
-import ModalTarea from "../components/AgregarTarea";
 import { ClockIcon, PaperIcon } from "../components/Iconos";
 import NavBar from "../components/NavBar";
-import TareasPendientes from "../components/TareasPendientes";
-import { useTareas } from "../contexts/TareasContext";
 
 const StyledView = styled(View);
 const StyledText = styled(Text);
