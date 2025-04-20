@@ -25,7 +25,7 @@ const shadowStyle = {
 
 export default function Home() {
   const [modal, setModal] = useState(false);
-  const { tareas } = useTareas();
+  //const { tareas } = useTareas();
 
   return (
     <StyledView className="flex-1 bg-[#EBEBEB]">
@@ -100,7 +100,7 @@ export default function Home() {
           >
             <PaperIcon />
             <StyledText className="text-[32px] font-bold">
-              {tareas.length}
+              hola mundo
             </StyledText>
             <StyledText className="text-[20px] text-gray-400 font-bold">
               Tareas
@@ -114,12 +114,12 @@ export default function Home() {
         animate={{ opacity: 1, translateX: 0 }}
         transition={{ type: "timing", duration: 500, delay: 300 }}
       >
-        <TareasPendientes onPlusPress={() => setModal(true)} />
+        {/* <TareasPendientes onPlusPress={() => setModal(true)} />  */}
       </AnimatedView>
       {/* Modal para agregar tareas */}
-      <StyledView>
+      {/* <StyledView>
         <ModalTarea visible={modal} onClose={() => setModal(false)} />
-      </StyledView>
+      </StyledView> */}
       {/* Barra de navegación */}
       <NavBar />
     </StyledView>
